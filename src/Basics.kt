@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
 
     //val test: String = null  não pod ser nulo
 
-    val test: String? = null // pode ser devido ao ?
+    val test: String? = null // pode ser, devido ao ?
 
     //val food: String = "yes"
     val food: String? = null

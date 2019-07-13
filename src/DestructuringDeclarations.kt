@@ -9,6 +9,8 @@ import models.User
 fun main(args: Array<String>) {
     val user = User(1, "André", "Gomes")
 
+    var meuid = user.id
+
     val (id, name, lastName) = user //Destructing
     println("id = $id, name = $name, lastname = $lastName ")
 

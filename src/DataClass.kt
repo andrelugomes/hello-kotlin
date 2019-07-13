@@ -6,5 +6,6 @@ fun createNewUser(): User {
 
 fun main(args: Array<String>) {
     val user = createNewUser()
+
     println("id = ${user.id}, name = ${user.name}, lastname = ${user.lastName}")
 }

@@ -65,9 +65,9 @@ fun main(args: Array<String>) {
 
     val numbers3 = listOf<Int>(1,2,3,4,5,6,7,8,9,0)
 
-    /*print(numbers3.divisibleBy {
+    print(numbers3.divisibleBy {
         it.rem(3)
-    })*/
+    })
 
     println(numbers3.byThree())
 
